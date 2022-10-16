@@ -1,0 +1,115 @@
+*, ::after, ::before {
+    box-sizing: revert; 
+}
+body{
+    background-color: rgba(201, 228, 238, 0.481);
+}
+header{
+    text-align: center;
+    background-image: url(../img/zelda-wallpaper.jpg);
+    font-variant: small-caps;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 5px grey;
+    background-position-y: -22rem;
+    color: whitesmoke;
+    padding-bottom: 12.7rem;
+    overflow-x: hidden;
+}
+h1{
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: auto;
+    color: whitesmoke;
+    padding-bottom: 3rem;
+}
+nav{
+    max-width: 100%;
+}
+header .link{
+    width: 6rem;
+    margin-left: 2.5rem;
+}
+header .lion-rouge{
+    position: relative;
+}
+header .lion-rouge .lion-rouge2{
+    position: absolute;
+    top: -7px;
+    left: 0vw;
+    width: 15rem;
+}
+header .lion-rouge .lion-rouge2.end{
+    top: -7px;
+    left: 85vw;
+    width: 15vh;
+    transition: 3s;
+}
+.morve-boy{
+    position: relative;
+}
+.morve-au-nez{
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+}
+.morve-au-nez.morve{
+    opacity: 1;
+    width: 1rem;
+    left: 70rem;
+    bottom: -3rem;
+    transition: 0.4s;
+}
+.bouton-morve{
+    border: none;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-color: #0e456a;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.card-title{
+    font-variant: small-caps;
+}
+.card-body{
+    display: none !important;
+    background-color: transparent;
+    transition: 0.4s;
+    width: 0rem;
+}
+#games-results .card:hover .card-img-top{
+    transition: 0.4s;
+    opacity: 1;
+    padding: 2rem;
+}
+li.card{
+    background-color: transparent;
+    border: none;
+    padding: 0rem;
+}
+#games-results .card:hover .card-body{
+    display: contents !important;
+    transition: 0.4s;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+#sort{
+    width: 20rem;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 245, 0.351);
+    border-radius: 25px;
+    border: none;
+    color: whitesmoke;
+}
+
+
+
+/*////////////////////////////////
+////////////GAME.HTML////////////
+///////////////////////////////*/
+
+
